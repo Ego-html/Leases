@@ -1,0 +1,170 @@
+.body {
+    font-family: Inter;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-top: 130px;
+    max-width: 1770px;
+    max-height: 244px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.container-items {
+    padding: 45px 0;
+}
+
+.container-items1234 {
+    margin-top: 40px;
+    padding: 45px 0;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 90px;
+}
+
+input {
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+}
+
+.form-check-input:focus {
+    box-shadow: none;
+    border-color: #828282;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba(130,130,130,1)'/></svg>") !important;
+}
+
+.form-check-input:checked {
+    background-color: white;
+    border-color: orange !important;
+    box-shadow: none;
+}
+
+.form-check-input:checked+.form-check-label {
+    color: orange;
+}
+
+.form-check-input:checked {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba(255,165,0,1)'/></svg>") !important;
+}
+
+.form-check-input+label:hover {
+    color: orange;
+}
+
+.comparison {
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 16px;
+}
+
+.label-container {
+    color: #828282;
+}
+
+.price-container {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.flex-item {
+    margin-top: 15px;
+    margin-left: 31px;
+}
+
+.from-the-badget {
+    margin-left: 3px;
+}
+
+.price-item {
+    margin-left: -43px;
+}
+
+.item-car {
+    margin-left: -13px;
+}
+
+.item-1 {
+    max-width: 1339px;
+    max-height: 226px;
+}
+
+.mercedes-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.57px;
+    color: #333;
+    max-width: 206px;
+    max-height: 88px;
+    margin-top: -11px;
+}
+
+.amg {
+    font-family: Inter;
+    color: #828282;
+    font-size: 24px;
+    line-height: 43.57px;
+    max-width: 96px;
+    max-height: 29px;
+}
+
+.item2 {
+    margin-left: 30px;
+}
+
+.container-img {
+    margin-right: 30px;
+}
+
+.button-count {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 14px 24px;
+}
+
+.button-count:hover {
+    background-color: rgba(233, 165, 39, 0.938);
+    border: none;
+}
+
+.button-load-container {
+    margin-top: 64px;
+    padding-bottom: 226px;
+}
+
+.button-load {
+    width: 431px;
+    height: 70px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.button-load:hover {
+    background-color: rgba(233, 165, 39, 0.938);
+    border: none;
+    color: white;
+}
+
+.monthly-payment {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    color: #333;
+}
+
+.monthly-price {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.57px;
+    color: #333;
+    margin-top: 9px;
+}
